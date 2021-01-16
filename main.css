@@ -1,0 +1,64 @@
+body {
+  background-color: steelblue;
+}
+
+h1 {
+  text-align: center;
+}
+.card-container-1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.card-container-2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.card img {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 10px 15px #888888;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid lightblue;
+}
+
+.product-info p {
+  text-align: justify;
+}
+
+.product-info p1 {
+  display: block;
+  background-color: darkgray;
+  color: yellow;
+}
+
+.specs {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.specs footer p {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.pricing {
+  font-weight: bold;
+  font-size: 15px;
+}
