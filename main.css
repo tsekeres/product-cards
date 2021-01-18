@@ -1,5 +1,15 @@
+/* .dark-primary-color    { background: #388E3C; }
+.default-primary-color { background: #4CAF50; }
+.light-primary-color   { background: #C8E6C9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #03A9F4; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; } */
+
+
 body {
-  background-color: steelblue;
+  background-color: #4CAF50;
 }
 
 h1 {
@@ -25,9 +35,9 @@ h1 {
 }
 
 .card {
-  background-color: white;
-  border: 3px solid black;
-  box-shadow: 10px 15px #888888;
+  background-color: #03A9F4;
+  border: 3px solid #BDBDBD;
+  box-shadow: 10px 15px #388E3C;
   margin: 10px;
   padding: 10px;
   width: 200px;
@@ -35,30 +45,47 @@ h1 {
 
 h2 {
   text-align: center;
-  border: 1px solid lightblue;
+  border: 1px solid #BDBDBD;
+  color: #212121;
 }
 
 .product-info p {
   text-align: justify;
+  color: #212121;
 }
 
 .product-info p1 {
   display: block;
-  background-color: darkgray;
-  color: yellow;
+  background-color: #388E3C;
+  color: #FFFFFF;
 }
 
 .specs {
   font-weight: bold;
   font-size: 15px;
+  color: #212121;
+}
+
+.specs h3 {
+  color: #212121;
+}
+
+.specs p {
+  color: #757575;
 }
 
 .specs footer p {
   font-weight: normal;
   font-size: 10px;
+  color: #FFFFFF;
 }
 
 .pricing {
   font-weight: bold;
   font-size: 15px;
+  color: #212121;
+}
+
+.pricing p {
+  color: #757575;
 }
