@@ -34,6 +34,23 @@ h1 {
   margin-right: auto;
 }
 
+.card-img {
+  position: relative;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* z-index: 1; */
+}
+
+.sold-out {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* z-index: 2; */
+}
+
 .card {
   background-color: #03A9F4;
   border: 3px solid #BDBDBD;
